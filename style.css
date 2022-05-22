@@ -190,11 +190,77 @@ input[type="checkbox"]{
         text-align: center;
     }
 }
+/* Tarjetas de ventas */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: center;
 
-.main_sec-part--3 img {
-    width: 200px;
-    height: 180px;
 }
+.tarjeta-producto {
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #ccc ;
+
+
+}
+.linea {
+    height: 2px;
+    background-color: #aaa;
+    
+}
+
+.img-producto {
+    width: 300px;
+}
+.xp-producto {
+    min-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.xp-producto h4 {
+    padding: 10px;
+}
+
+.xp-producto  ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.xp-producto li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 0 20px;
+}
+.btn-productos {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-productos button {
+    background-color: #522D61;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: #ccc;
+}
+@media (max-width: 1100px) {
+    .productos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media(max-width: 730px){
+    .productos {
+        grid-template-columns: 1fr;
+    }
+}
+/* final tarjeta de ventaS */
+
+
 
 .main_sec-part--3 {
     margin-top: 200px;
@@ -204,50 +270,17 @@ input[type="checkbox"]{
     gap: 100px;
 }
 
-.section_container {
-    display: flex;
-    gap: 100px;
-}
 
-.cards {
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px #000;
-}
 
-.cards img {
-    border-radius: 8px;
-}
 
-.section_info {
-    display: flex;
-    flex-direction: column;
-    gap: 30px
-}
 
-.section_int {
-    display: flex;
-    justify-content: space-around;
-}
 
-.section_int span a {
-    padding: 8px 20px;
-}
 
-.section-ver a {
-    background-color: #522D61;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-}
 
-@media (max-width: 941px) {
-    .section_container {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
+
+
+
 
 .more {
     text-decoration: none;
