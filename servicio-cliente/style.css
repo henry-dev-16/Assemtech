@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #522D61;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+nav .logo {
+    color: #fff;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ 
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+    color: #111;
+    background: #fff;
+}
+
+nav .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+@media (max-width: 1100px){
+  nav{
+    padding: 0 30px ;
+  }
+
+  .card_info {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card_info p {
+      text-align: center;
+  }
+}
+.active-1 {
+    width: 120px;
+}
+
+
+/* Sección de servicio al cliente*/
+.servicio-cliente {
+    padding: 100px 20px 20px 20px;
+    width: 100%;
+}
+
+/* Formulario */
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px ;
+    justify-content: center;
+    background-color: #eee;
+    max-width: 600px;
+    margin: auto;
+    border:#bbb 2px solid;
+    border-radius: 8px;
+}
+.form-container ul{
+    width: 100%;
+}
+.input{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.input label, .input input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    font-weight: 600;
+    border-radius: 4px;
+    text-justify:distribute-all-lines;
+}
+.textarea textarea{
+    width: 100%;
+    resize: none;
+}
+button{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    color: #eee;
+    font-weight:600;
+    background-color: #522D61;
+    border-radius: 20px;
+    border: solid 2px #2a1731;
+    padding: 10px;
+}

@@ -42,27 +42,29 @@ function create_Card(a,imagen,nombre,cualidad_1,cualidad_2, cualidad_3, cualidad
     c4.innerHTML=c_a;
 
 }
+
+
 create_Card("card-2",
 "./assets/logo-AssemTech1.png",
-"El pepe con juan",
-["Frecuencia:","2.6ghz"],
-["Pepino:","jabon"],
-["cocote:","habichuela"],
-["ajonjolee:","bruslee"]);
-create_Card("card-3",
-"./assets/pexels-it-services-eu-7596370.jpg",
 "ok diego ta feo",
 ["color:","negro"],
 ["sabor:","pupu"],
 ["brocolee:","chaquichan"],
 ["ajonjolee:","bruslee"]);
 
-for (let i = 0 ; i <=10 ; i++){
-    create_Card("card-"+i,
-"./assets/pexels-it-services-eu-7596370.jpg",
+create_Card("card-3",
+"./assets/logo-AssemTech1.png",
+"ok diego ta feo",
+["modelo:","tu-real-mm"],
+["marca:","generica"],
+["compatible:","motherboard-del"],
+["ajonjolee:","bruslee"]);
+
+create_Card("card-4",
+"./assets/logo-AssemTech1.png",
 "ok diego ta feo",
 ["color:","negro"],
 ["sabor:","pupu"],
 ["brocolee:","chaquichan"],
 ["ajonjolee:","bruslee"]);
-}
+
