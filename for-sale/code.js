@@ -34,6 +34,7 @@ function create_Card(a,imagen,nombre,cualidad_1,cualidad_2, cualidad_3, cualidad
     c3.innerHTML=c_a;
 
     let c4 = document.querySelectorAll("."+a+" > div > ul .li_4 ");
+    c4 = c4.item(0)
     c_a = "<b>"+cualidad_4[0]+"</b>"+cualidad_4[1];
     c4.innerHTML=c_a;
 
@@ -50,55 +51,110 @@ function create_Card(a,imagen,nombre,cualidad_1,cualidad_2, cualidad_3, cualidad
 
 create_Card("card-2",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium 4",
+"Procesador Intel Pentium 4",
 ["Modelo:","SL6S2 MALAY"],
 ["Frecuencia:","2.53ghz"],
 ["Cache:","512kb"],
-["Núcleos:","1"],"35.00");
+["Núcleos:","1"],
+"55.00");
 
 create_Card("card-3",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium Dual-Core",
+"Procesador Intel Pentium Dual-Core",
 ["Modelo:","SLAT7 MALAY"],
 ["Frecuencia:","2.52ghz"],
 ["Cache:","800kb"],
-["Núcleos:","2"],"35.00");
+["Núcleos:","2"],"53.09");
 
 
-create_Card("card-2",
+create_Card("card-4",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium 4",
-["Modelo:","SL6S2 MALAY"],
-["Frecuencia:","2.53ghz"],
-["Cache:","512kb"],
-["Núcleos:","1"],"35.00");
+"Disco Duro Wéstern Digital ",
+["Modelo:","WD800JD-08MSA1"],
+["Capacidad:","80gb"],
+["Formato:","HDD"],
+["Compatibilidad:","PC"],"10.99");
 
 
-create_Card("card-2",
+create_Card("card-5",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium 4",
-["Modelo:","SL6S2 MALAY"],
-["Frecuencia:","2.53ghz"],
-["Cache:","512kb"],
-["Núcleos:","1"],"35.00");
+"Disco Duro Seagate Barracuda",
+["Modelo:","ATA IV"],
+["Capacidad:","20gb"],
+["Formato:","HDD"],
+["Compatibilidad:","PC"],"4.99");
 
-
-create_Card("card-2",
+create_Card("card-6",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium 4",
-["Modelo:","SL6S2 MALAY"],
-["Frecuencia:","2.53ghz"],
-["Cache:","512kb"],
-["Núcleos:","1"],"35.00");
+"Disco Duro Wéstern Digital Blue",
+["Modelo:","WD5000LPCX-21VHAT0"],
+["Capacidad:","500gb"],
+["Formato:","HDD"],
+["Compatibilidad:","Portatil"],"149.99");
 
 
-create_Card("card-2",
+create_Card("card-7",
 "./assets/logo-AssemTech1.png",
-"Intel Pentium 4",
-["Modelo:","SL6S2 MALAY"],
-["Frecuencia:","2.53ghz"],
-["Cache:","512kb"],
-["Núcleos:","1"],"35.00");
+"Motherboard ASrock",
+["Modelo:","G41M-VS3"],
+["Ranuras de RAM:","x2"],
+["Capacidad de RAM:","DDR3 1333(OC)"],
+["Procesador:","Intel"],"119.59");
+
+create_Card("card-8",
+"./assets/logo-AssemTech1.png",
+"Motherboard Foxconn",
+["Modelo:","650 M02-G-6L"],
+["Ranuras de RAM:","x2"],
+["Capacidad de RAM:","DDR"],
+["Procesador:","Intel"],"84.99");
+
+create_Card("card-9",
+"./assets/logo-AssemTech1.png",
+"Motherboard Dell E93839",
+["Modelo:","KA0120 D28YY"],
+["Ranuras de RAM:","x4"],
+["Capacidad de RAM:","DDR3"],
+["Procesador:","Intel"],"149.99");
+
+create_Card("card-10",
+"./assets/logo-AssemTech1.png",
+"Unidad Multimedia LG",
+["Modelo:","GSA-4167B"],
+["Reproductor:","DVD y CD"],
+["Año de fabricación:","2005"],
+["Color:","Blanco"],"55.99");
+
+create_Card("card-11",
+"./assets/logo-AssemTech1.png",
+"Unidad Multimedia Samsung",
+["Modelo:","SC-148"],
+["Reproductor:","CD"],
+["Año de fabricación:","2002"],
+["Color:","Negro"],"40.99");
+
+
+
+create_Card("card-12",
+"./assets/logo-AssemTech1.png",
+"Unidad Multimedia Sony",
+["Modelo:","AD-7200S"],
+["reproductor","DVD y CD"],
+["Año de fabricación:","2007"],
+["Color:","Negra"],"70.99");
+
+create_Card("card-13",
+"./assets/logo-AssemTech1.png",
+"Unidad Multimedia BENQ",
+["Modelo:","CB523C"],
+["Reproductor:","DVD y CD"],
+["Año de fabricación:","2005"],
+["Color:","Blanco"],"54.99");
+
+
+
+
+
 
 
 
