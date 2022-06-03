@@ -66,8 +66,31 @@ create_Card("card-3",
 ["Cache:","800kb"],
 ["Núcleos:","2"],"53.09");
 
-
 create_Card("card-4",
+"./assets/logo-AssemTech1.png",
+"Procesador Intel Pentium 4",
+["Modelo:","SL6PN COSTA RICA"],
+["Frecuencia:","2.50ghz"],
+["Cache:","512kb"],
+["Núcleos:","2"],"51.49");
+
+create_Card("card-5",
+"./assets/logo-AssemTech1.png",
+"Procesador Intel Pentium E5800",
+["Modelo:","SLGTG COSTA RICA"],
+["Frecuencia:","3.2Oghz"],
+["Cache:","800kb"],
+["Núcleos:","2"],"80.00");
+
+create_Card("card-6",
+"./assets/logo-AssemTech1.png",
+"Procesador Intel Pentium 4",
+["Modelo:","SL88S MALAY"],
+["Frecuencia:","3.0ghz"],
+["Cache:","800kb"],
+["Núcleos:","2"],"75.49");
+
+create_Card("card-7",
 "./assets/logo-AssemTech1.png",
 "Disco Duro Wéstern Digital ",
 ["Modelo:","WD800JD-08MSA1"],
@@ -76,7 +99,7 @@ create_Card("card-4",
 ["Compatibilidad:","PC"],"10.99");
 
 
-create_Card("card-5",
+create_Card("card-8",
 "./assets/logo-AssemTech1.png",
 "Disco Duro Seagate Barracuda",
 ["Modelo:","ATA IV"],
@@ -84,7 +107,7 @@ create_Card("card-5",
 ["Formato:","HDD"],
 ["Compatibilidad:","PC"],"4.99");
 
-create_Card("card-6",
+create_Card("card-9",
 "./assets/logo-AssemTech1.png",
 "Disco Duro Wéstern Digital Blue",
 ["Modelo:","WD5000LPCX-21VHAT0"],
@@ -93,7 +116,7 @@ create_Card("card-6",
 ["Compatibilidad:","Portatil"],"149.99");
 
 
-create_Card("card-7",
+create_Card("card-10",
 "./assets/logo-AssemTech1.png",
 "Motherboard ASrock",
 ["Modelo:","G41M-VS3"],
@@ -101,7 +124,7 @@ create_Card("card-7",
 ["Capacidad de RAM:","DDR3 1333(OC)"],
 ["Procesador:","Intel"],"119.59");
 
-create_Card("card-8",
+create_Card("card-11",
 "./assets/logo-AssemTech1.png",
 "Motherboard Foxconn",
 ["Modelo:","650 M02-G-6L"],
@@ -109,7 +132,7 @@ create_Card("card-8",
 ["Capacidad de RAM:","DDR"],
 ["Procesador:","Intel"],"84.99");
 
-create_Card("card-9",
+create_Card("card-12",
 "./assets/logo-AssemTech1.png",
 "Motherboard Dell E93839",
 ["Modelo:","KA0120 D28YY"],
@@ -117,15 +140,65 @@ create_Card("card-9",
 ["Capacidad de RAM:","DDR3"],
 ["Procesador:","Intel"],"149.99");
 
-create_Card("card-10",
+create_Card("card-13",
 "./assets/logo-AssemTech1.png",
-"Unidad Multimedia LG",
-["Modelo:","GSA-4167B"],
-["Reproductor:","DVD y CD"],
-["Año de fabricación:","2005"],
-["Color:","Blanco"],"55.99");
+"Memoria Ram Genérica",
+["Capacidad:","2gb"],
+["Tecnología:","DDR3"],
+["Frecuencia:","1800mhz"],
+["Compatibilidad:","PC"],"20.00");
 
-create_Card("card-11",
+create_Card("card-14",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram Samsung",
+["Capacidad:","2gb"],
+["Tecnología:","DDR"],
+["Frecuencia:","800mhz"],
+["Compatibilidad:","PC"],"10.00");
+
+create_Card("card-15",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram ProMOS",
+["Capacidad:","1gb"],
+["Tecnología:","DDR2"],
+["Frecuencia:","1200mhz"],
+["Compatibilidad:","PC"],"15.00");
+
+create_Card("card-16",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram ADATA",
+["Capacidad:","4gb"],
+["Tecnología:","DDR3"],
+["Frecuencia:","1800mhz"],
+["Compatibilidad:","Portatil"],"20.00");
+
+create_Card("card-17",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram HP",
+["Capacidad:","512mb"],
+["Tecnología:","DDR"],
+["Frecuencia:","600mhz"],
+["Compatibilidad:","PC"],"7.99");
+
+
+
+create_Card("card-18",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram HP",
+["Capacidad:","256mb"],
+["Tecnología:","DDR"],
+["Frecuencia:","600mhz"],
+["Compatibilidad:","PC"],"5.99");
+
+create_Card("card-19",
+"./assets/logo-AssemTech1.png",
+"Memoria Ram Crucial",
+["Capacidad:","256mb"],
+["Tecnología:","DDR"],
+["Frecuencia:","600mhz"],
+["Compatibilidad:","PC"],"5.99");
+
+create_Card("card-20",
 "./assets/logo-AssemTech1.png",
 "Unidad Multimedia Samsung",
 ["Modelo:","SC-148"],
@@ -133,9 +206,7 @@ create_Card("card-11",
 ["Año de fabricación:","2002"],
 ["Color:","Negro"],"40.99");
 
-
-
-create_Card("card-12",
+create_Card("card-21",
 "./assets/logo-AssemTech1.png",
 "Unidad Multimedia Sony",
 ["Modelo:","AD-7200S"],
@@ -143,13 +214,22 @@ create_Card("card-12",
 ["Año de fabricación:","2007"],
 ["Color:","Negra"],"70.99");
 
-create_Card("card-13",
+create_Card("card-22",
 "./assets/logo-AssemTech1.png",
 "Unidad Multimedia BENQ",
 ["Modelo:","CB523C"],
 ["Reproductor:","DVD y CD"],
 ["Año de fabricación:","2005"],
 ["Color:","Blanco"],"54.99");
+
+create_Card("card-23",
+"./assets/logo-AssemTech1.png",
+"Unidad Multimedia LG",
+["Modelo:","GSA-4167B"],
+["Reproductor:","DVD y CD"],
+["Año de fabricación:","2005"],
+["Color:","Blanco"],"55.99");
+
 
 
 
