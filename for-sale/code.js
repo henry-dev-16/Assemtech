@@ -50,7 +50,7 @@ function create_Card(a,imagen,nombre,cualidad_1,cualidad_2, cualidad_3, cualidad
 
 
 create_Card("card-2",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.59 PM (1).jpeg",
 "Procesador Intel Pentium 4",
 ["Modelo:","SL6S2 MALAY"],
 ["Frecuencia:","2.53ghz"],
@@ -59,7 +59,7 @@ create_Card("card-2",
 "55.00");
 
 create_Card("card-3",
-"./assets/logo-AssemTech1.png",
+"./assets/slsmalasay.jpeg",
 "Procesador Intel Pentium Dual-Core",
 ["Modelo:","SLAT7 MALAY"],
 ["Frecuencia:","2.52ghz"],
@@ -67,7 +67,7 @@ create_Card("card-3",
 ["Núcleos:","2"],"53.09");
 
 create_Card("card-4",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.00 PM (1).jpeg",
 "Procesador Intel Pentium 4",
 ["Modelo:","SL6PN COSTA RICA"],
 ["Frecuencia:","2.50ghz"],
@@ -75,7 +75,7 @@ create_Card("card-4",
 ["Núcleos:","2"],"51.49");
 
 create_Card("card-5",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.00 PM (2).jpeg",
 "Procesador Intel Pentium E5800",
 ["Modelo:","SLGTG COSTA RICA"],
 ["Frecuencia:","3.2Oghz"],
@@ -83,7 +83,7 @@ create_Card("card-5",
 ["Núcleos:","2"],"80.00");
 
 create_Card("card-6",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.12 PM.jpeg",
 "Procesador Intel Pentium 4",
 ["Modelo:","SL88S MALAY"],
 ["Frecuencia:","3.0ghz"],
@@ -91,7 +91,7 @@ create_Card("card-6",
 ["Núcleos:","2"],"75.49");
 
 create_Card("card-7",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.55 PM.jpeg",
 "Disco Duro Wéstern Digital ",
 ["Modelo:","WD800JD-08MSA1"],
 ["Capacidad:","80gb"],
@@ -100,7 +100,7 @@ create_Card("card-7",
 
 
 create_Card("card-8",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.28 PM.jpeg",
 "Disco Duro Seagate Barracuda",
 ["Modelo:","ATA IV"],
 ["Capacidad:","20gb"],
@@ -108,7 +108,7 @@ create_Card("card-8",
 ["Compatibilidad:","PC"],"4.99");
 
 create_Card("card-9",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.56 PM.jpeg",
 "Disco Duro Wéstern Digital Blue",
 ["Modelo:","WD5000LPCX-21VHAT0"],
 ["Capacidad:","500gb"],
@@ -117,7 +117,7 @@ create_Card("card-9",
 
 
 create_Card("card-10",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.20 PM.jpeg",
 "Motherboard ASrock",
 ["Modelo:","G41M-VS3"],
 ["Ranuras de RAM:","x2"],
@@ -125,7 +125,7 @@ create_Card("card-10",
 ["Procesador:","Intel"],"119.59");
 
 create_Card("card-11",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.24 PM.jpeg",
 "Motherboard Foxconn",
 ["Modelo:","650 M02-G-6L"],
 ["Ranuras de RAM:","x2"],
@@ -133,7 +133,7 @@ create_Card("card-11",
 ["Procesador:","Intel"],"84.99");
 
 create_Card("card-12",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.27 PM.jpeg",
 "Motherboard Dell E93839",
 ["Modelo:","KA0120 D28YY"],
 ["Ranuras de RAM:","x4"],
@@ -141,7 +141,7 @@ create_Card("card-12",
 ["Procesador:","Intel"],"149.99");
 
 create_Card("card-13",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.58 PM.jpeg",
 "Memoria Ram Genérica",
 ["Capacidad:","2gb"],
 ["Tecnología:","DDR3"],
@@ -149,7 +149,7 @@ create_Card("card-13",
 ["Compatibilidad:","PC"],"20.00");
 
 create_Card("card-14",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.49 PM.jpeg",
 "Memoria Ram Samsung",
 ["Capacidad:","2gb"],
 ["Tecnología:","DDR"],
@@ -157,7 +157,7 @@ create_Card("card-14",
 ["Compatibilidad:","PC"],"10.00");
 
 create_Card("card-15",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.47 PM.jpeg",
 "Memoria Ram ProMOS",
 ["Capacidad:","1gb"],
 ["Tecnología:","DDR2"],
@@ -165,7 +165,7 @@ create_Card("card-15",
 ["Compatibilidad:","PC"],"15.00");
 
 create_Card("card-16",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.54 PM (1).jpeg",
 "Memoria Ram ADATA",
 ["Capacidad:","4gb"],
 ["Tecnología:","DDR3"],
@@ -173,7 +173,7 @@ create_Card("card-16",
 ["Compatibilidad:","Portatil"],"20.00");
 
 create_Card("card-17",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.47 PM.jpeg",
 "Memoria Ram HP",
 ["Capacidad:","512mb"],
 ["Tecnología:","DDR"],
@@ -183,7 +183,7 @@ create_Card("card-17",
 
 
 create_Card("card-18",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.24 PM.jpeg",
 "Memoria Ram HP",
 ["Capacidad:","256mb"],
 ["Tecnología:","DDR"],
@@ -191,7 +191,7 @@ create_Card("card-18",
 ["Compatibilidad:","PC"],"5.99");
 
 create_Card("card-19",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.24.47 PM (2).jpeg",
 "Memoria Ram Crucial",
 ["Capacidad:","256mb"],
 ["Tecnología:","DDR"],
@@ -199,7 +199,7 @@ create_Card("card-19",
 ["Compatibilidad:","PC"],"5.99");
 
 create_Card("card-20",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.26.01 PM (1).jpeg",
 "Unidad Multimedia Samsung",
 ["Modelo:","SC-148"],
 ["Reproductor:","CD"],
@@ -207,7 +207,7 @@ create_Card("card-20",
 ["Color:","Negro"],"40.99");
 
 create_Card("card-21",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.59 PM (1).jpeg",
 "Unidad Multimedia Sony",
 ["Modelo:","AD-7200S"],
 ["reproductor","DVD y CD"],
@@ -215,7 +215,7 @@ create_Card("card-21",
 ["Color:","Negra"],"70.99");
 
 create_Card("card-22",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.25.59 PM.jpeg",
 "Unidad Multimedia BENQ",
 ["Modelo:","CB523C"],
 ["Reproductor:","DVD y CD"],
@@ -223,7 +223,7 @@ create_Card("card-22",
 ["Color:","Blanco"],"54.99");
 
 create_Card("card-23",
-"./assets/logo-AssemTech1.png",
+"./assets/WhatsApp Image 2022-06-01 at 2.26.01 PM.jpeg",
 "Unidad Multimedia LG",
 ["Modelo:","GSA-4167B"],
 ["Reproductor:","DVD y CD"],

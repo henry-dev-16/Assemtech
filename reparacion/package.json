@@ -1,0 +1,11 @@
+{
+  "name": "assamtech",
+  "version": "1.0.0",
+  "description": "Project for a technology company",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikerl and Henry",
+  "license": "ISC"
+}
